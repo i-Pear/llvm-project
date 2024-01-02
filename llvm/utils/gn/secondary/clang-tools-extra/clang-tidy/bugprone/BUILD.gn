@@ -41,6 +41,7 @@ static_library("bugprone") {
     "IncorrectRoundingsCheck.cpp",
     "InfiniteLoopCheck.cpp",
     "IntegerDivisionCheck.cpp",
+    "InvalidArgumentInStrerrorCheck.cpp",
     "LambdaFunctionNameCheck.cpp",
     "MacroParenthesesCheck.cpp",
     "MacroRepeatedSideEffectsCheck.cpp",

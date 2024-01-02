@@ -161,6 +161,11 @@ New checks
   Detects implicit conversions between pointers of different levels of
   indirection.
 
+- New :doc:`bugprone-invalid-argument-in-strerror
+  <clang-tidy/checks/bugprone/invalid-argument-in-strerror>` check.
+
+  Detects passing an invalid value as the errnum parameter to strerror.
+
 - New :doc:`bugprone-optional-value-conversion
   <clang-tidy/checks/bugprone/optional-value-conversion>` check.
 

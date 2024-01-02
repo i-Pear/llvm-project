@@ -34,6 +34,7 @@
 #include "IncorrectRoundingsCheck.h"
 #include "InfiniteLoopCheck.h"
 #include "IntegerDivisionCheck.h"
+#include "InvalidArgumentInStrerrorCheck.h"
 #include "LambdaFunctionNameCheck.h"
 #include "MacroParenthesesCheck.h"
 #include "MacroRepeatedSideEffectsCheck.h"
@@ -140,6 +141,8 @@ public:
     CheckFactories.registerCheck<InfiniteLoopCheck>("bugprone-infinite-loop");
     CheckFactories.registerCheck<IntegerDivisionCheck>(
         "bugprone-integer-division");
+    CheckFactories.registerCheck<InvalidArgumentInStrerrorCheck>(
+        "bugprone-invalid-argument-in-strerror");
     CheckFactories.registerCheck<LambdaFunctionNameCheck>(
         "bugprone-lambda-function-name");
     CheckFactories.registerCheck<MacroParenthesesCheck>(
